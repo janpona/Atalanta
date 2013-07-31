@@ -1,3 +1,16 @@
+/*CSS reset*/
+
+html, body, button, canvas {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 html,body {
 	background-color: #333;
 	color: #fff;
@@ -14,4 +27,29 @@ html,body {
 	top: 0;
 	bottom: 0;
 	margin: auto;
+	z-index: 9;
+}
+
+button {
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	z-index: 99;
+	width: 50%;
+	box-sizing: border-box;
+	border: 2px solid gray;
+}
+
+button:active {
+	background-color: blue;
+}
+
+#runButton {
+	left: 0;
+	border-right: 1px solid gray;
+}
+
+#jumpButton {
+	right: 0;
+	border-left: 1px solid gray;
 }
