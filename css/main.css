@@ -29,27 +29,3 @@ html,body {
 	margin: auto;
 	z-index: 9;
 }
-
-button {
-	position: absolute;
-	bottom: 0;
-	height: 100px;
-	z-index: 99;
-	width: 50%;
-	box-sizing: border-box;
-	border: 2px solid gray;
-}
-
-button:active {
-	background-color: blue;
-}
-
-#runButton {
-	left: 0;
-	border-right: 1px solid gray;
-}
-
-#jumpButton {
-	right: 0;
-	border-left: 1px solid gray;
-}
