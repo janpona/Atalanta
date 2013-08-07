@@ -1,5 +1,4 @@
 /*CSS reset*/
-
 html, body, button, canvas {
 	margin: 0;
 	padding: 0;
@@ -19,7 +18,7 @@ html,body {
 	padding: 0;
 	font-size: 12pt;
 }
-		
+
 #canvas {
 	position: absolute;
 	left: 0;
